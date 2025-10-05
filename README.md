@@ -1,4 +1,3 @@
-
 # 🧪 AI Campaign Orchestration Lab
 
 **Portfolio demo** showing how AI can analyze, optimize, and adjust multi-channel campaigns (Email + SMS + Paid) with
@@ -31,16 +30,6 @@ AI_Campaign_Orchestration_Lab/
 ├─ assets/
 └─ requirements.txt
 ```
-
-## 🔄 Swap in Real Data
-Replace CSVs in `data/` with your exports (keep the same columns).
-
-- `synthetic_campaign_events.csv` columns:  
-  `event_dt, campaign_id, channel, contact_id, persona, subject, opened, clicked, unsubscribed`
-
-- `synthetic_contacts.csv` columns:  
-  `contact_id, email, persona, opt_in_email, opt_in_sms, created_at`
-
 ## 🧠 Explainability (for CMOs/Legal)
 - AI toggle demonstrates ROI sensitivity (default +8% lift)—adjust in `utils/ai_modules.py`
 - Fatigue rule: >4 touches in 7 days → segmented reduction
